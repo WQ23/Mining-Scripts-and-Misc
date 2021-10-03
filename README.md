@@ -1,5 +1,8 @@
-A compilation of scripts and miscellaneous settings I found all over the internet, used to optimise GPU mining performance for Ethereum mainly.
+A compilation of scripts and miscellaneous settings I found all over the internet, used to optimise GPU mining performance for (mainly) Ethereum
+
+
 BTC: 3QJ4YG8HaSoErMs8yHKwUEGyEgtK5c2LT6
+
 =================================================================================================================================
 
 RX Vega 56 (Gigabyte / Samsung Memory / Stock cooler) ~54 MH/s stable
