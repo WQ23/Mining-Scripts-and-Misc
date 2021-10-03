@@ -46,7 +46,6 @@ Fan: Typically ~50%, mine are kept above 60% in a closed rig
 
 ==============================================================
 
-
 Installing generic wifi adapter driver on Linux (ls-usb 0bda-c811)
 sudo apt update
 sudo apt install build-essential git dkms
