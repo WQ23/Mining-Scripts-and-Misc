@@ -1,4 +1,4 @@
-A compilation of scripts and miscellaneous settings I found all over the internet, used to optimise GPU mining performance for (mainly) Ethereum
+A compilation of scripts and miscellaneous settings I found all over the internet, used to optimise GPU mining performance for (mainly) Ethereum in a tropical climate
 
 ==============================================================
 
@@ -35,10 +35,12 @@ Core Clock:Curve locked at 1140 / 700 on Afterburner
 ==============================================================
 
 RX580 30+ MH/s stable
+-Mod bios accordingly
+-enable compute mode manually or use teamredminer's --enable_compute flag
 
 amdmemtweak --REF 30 (probably unnecessary)
 
-Varies around these settings by model and memory type (Samsung / Hynix / Micron / Elpida)
+Overclock varies around these settings by model and memory type (Samsung / Hynix / Micron / Elpida)
 Core Clock: 1150
 Core Voltage: 850
 Memory Clock: 2050
