@@ -1,9 +1,11 @@
 A compilation of scripts and miscellaneous settings I found all over the internet, used to optimise GPU mining performance for (mainly) Ethereum
 
+==============================================================
 
 BTC: 3QJ4YG8HaSoErMs8yHKwUEGyEgtK5c2LT6
+ETH: 0x848aE35F95d8B903c671dc011Ef14D2c37bd36cD
 
-=================================================================================================================================
+==============================================================
 
 RX Vega 56 (Gigabyte / Samsung Memory / Stock cooler) ~54 MH/s stable
 
@@ -16,7 +18,7 @@ Memory Clock: 1020
 Memory Voltage: 0
 Fan: Typically 60%+, mine are kept above 75%
 
-=================================================================================================================================
+==============================================================
 
 RTX 3080 MSI Gaming X/Z Trio without modding thermal pads and voiding warranty, while retaining RGB controls unlike flashing Suprim / Strix Bios ~101 MHs stable
 -Bios flash to this: https://www.techpowerup.com/vgabios/231648/msi-rtx3080-10240-210311
@@ -30,7 +32,7 @@ Power Limit: 102%
 Core Voltage: Untouched
 Core Clock:Curve locked at 1140 / 700 on Afterburner
 
-=================================================================================================================================
+==============================================================
 
 RX580 30+ MH/s stable
 
@@ -42,7 +44,7 @@ Core Voltage: 850
 Memory Clock: 2050
 Fan: Typically ~50%, mine are kept above 60% in a closed rig
 
-=================================================================================================================================
+==============================================================
 
 
 Installing generic wifi adapter driver on Linux (ls-usb 0bda-c811)
@@ -53,12 +55,12 @@ cd rtl8821CU
 chmod +x dkms-install.sh
 sudo ./dkms-install.sh
 
-=================================================================================================================================
+==============================================================
 
 OverdriveNTool overclock.bat in startup folder to automatically apply overclocks:
 OverdriveNTool.exe -r0 -p0"g0" -r1 -p1"g1" -r2 -p2"g2" -r3 -p3"g3" -r4 -p4"g4" -r5 -p5"g5" -r6 -p6"g6" -r7 -p7"g7"
 
-=================================================================================================================================
+==============================================================
 
 TeamRedMiner launch scripts for Windows (B mode + compute mode toggle + coloured text + UAC):
 launch.sh
@@ -67,7 +69,7 @@ teamredminer --algo ethash -o <pool address> -u <user> -p x --eth_dag_slowdown=9
 launch.ps1 (when running multiple miners with clashes, easy solution is to run using Powershell)
 Start-Process -NoNewWindow -FilePath "C:\x\teamredminer" -ArgumentList "-a ethash -o ......................"
 
-=================================================================================================================================
+==============================================================
 
 Setup for Windows:
 DDU
