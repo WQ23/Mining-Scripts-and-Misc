@@ -72,6 +72,13 @@ Start-Process -NoNewWindow -FilePath "C:\x\teamredminer" -ArgumentList "-a ethas
 
 ==============================================================
 
+Raptoreum in powershell instead of cmd (clashing when dual-mining):
+Start-Process -FilePath "C:\xxxxx\cpuminer-gr-1.2.4.1-x86_64_windows\binaries\cpuminer-zen3.exe" -Verb RunAs -ArgumentList "--config=config.json"
+Zen3 binary for 5900x / 5950x
+RunAs to elevate to admin privilege to access MSR registry
+
+==============================================================
+
 Setup for Windows:
 DDU
 Registry tweaks
