@@ -23,7 +23,7 @@ Fan: Typically 60%+, mine are kept above 75%
 RTX 3080 MSI Gaming X/Z Trio without modding thermal pads and voiding warranty, while retaining RGB controls unlike flashing Suprim / Strix Bios ~101 MHs stable
 -Bios flash to this: https://www.techpowerup.com/vgabios/231648/msi-rtx3080-10240-210311
 -Extra info: https://www.nvidia.com/en-us/geforce/news/geforce-rtx-30-series-resizable-bar-support/
--use 471.41 / 472.12 driver, newer drivers may cause hashrate to be halved in FHR cards
+-use 472.12 driver, newer drivers may cause hashrate to be halved in FHR cards
 
 Fan: 100% (More economical replacing faulty fans vs getting a damaged core)
 
@@ -49,7 +49,7 @@ Fan: Typically ~50%, mine are kept above 60% in a closed rig
 
 ==============================================================
 
-Installing generic wifi adapter driver on Linux (ls-usb 0bda-c811)
+Installing generic wifi adapter driver on Linux / HiveOS (ls-usb 0bda-c811)
 sudo apt update
 sudo apt install build-essential git dkms
 git clone https://github.com/brektrou/rtl8821CU.git
